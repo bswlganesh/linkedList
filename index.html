@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Linked List Syllabus — With LeetCode Mapping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">LL</div>
+      <div>
+        <h1>Linked List Syllabus</h1>
+        <p>A comprehensive roadmap for mastering Linked Lists with LeetCode problems.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card">
+        <section id="fundamentals">
+          <h2>1. Introduction & Fundamentals</h2>
+          <p class="section-meta">Get familiar with the basics of linked lists, their structure, types, and advantages over arrays.</p>
+          <ul class="syllabus-points">
+            <li><input type="checkbox" id="theory-fundamentals-1"><label for="theory-fundamentals-1">What is a Linked List?</label></li>
+            <li><input type="checkbox" id="theory-fundamentals-2"><label for="theory-fundamentals-2">Comparison with arrays: advantages & disadvantages</label></li>
+            <li><input type="checkbox" id="theory-fundamentals-3"><label for="theory-fundamentals-3">Types: Singly, Doubly, Circular</label></li>
+            <li><input type="checkbox" id="theory-fundamentals-4"><label for="theory-fundamentals-4">Node structure & memory representation</label></li>
+            <li><input type="checkbox" id="theory-fundamentals-5"><label for="theory-fundamentals-5">Basic implementation in C++ / Java / Python</label></li>
+          </ul>
+          <div class="problems">
+            <div class="problem must"><input type="checkbox" id="p707"><div class="problem-details"><label for="p707"><a href="https://leetcode.com/problems/design-linked-list/" target="_blank">707. Design Linked List</a></label><small> — design / implementation</small></div></div>
+          </div>
+        </section>
+
+        <section id="sll">
+          <h2>2. Singly Linked List (SLL)</h2>
+          <p class="section-meta">Core operations on singly linked lists, including traversal, insertion, deletion, and searching.</p>
+          <ul class="syllabus-points">
+            <li><input type="checkbox" id="theory-sll-1"><label for="theory-sll-1">Traversal (head → tail)</label></li>
+            <li><input type="checkbox" id="theory-sll-2"><label for="theory-sll-2">Insertion (head, tail, kth, before/after)</label></li>
+            <li><input type="checkbox" id="theory-sll-3"><label for="theory-sll-3">Deletion (head, tail, kth, by value)</label></li>
+            <li><input type="checkbox" id="theory-sll-4"><label for="theory-sll-4">Searching by value</label></li>
+            <li><input type="checkbox" id="theory-sll-5"><label for="theory-sll-5">Utility: count nodes, convert array ⇄ list</label></li>
+          </ul>
+          <div class="problems">
+            <div class="problem must"><input type="checkbox" id="p206"><div class="problem-details"><label for="p206"><a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank">206. Reverse Linked List</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p92"><div class="problem-details"><label for="p92"><a href="https://leetcode.com/problems/reverse-linked-list-ii/" target="_blank">92. Reverse Linked List II</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p876"><div class="problem-details"><label for="p876"><a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank">876. Middle of the Linked List</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p203"><div class="problem-details"><label for="p203"><a href="https://leetcode.com/problems/remove-linked-list-elements/" target="_blank">203. Remove Linked List Elements</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p237"><div class="problem-details"><label for="p237"><a href="https://leetcode.com/problems/delete-node-in-a-linked-list/" target="_blank">237. Delete Node in a Linked List</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p83"><div class="problem-details"><label for="p83"><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/" target="_blank">83. Remove Duplicates from Sorted List</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p141"><div class="problem-details"><label for="p141"><a href="https://leetcode.com/problems/linked-list-cycle/" target="_blank">141. Linked List Cycle</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p142"><div class="problem-details"><label for="p142"><a href="https://leetcode.com/problems/linked-list-cycle-ii/" target="_blank">142. Linked List Cycle II</a></label></div></div>
+            <div class="problem must"><input type="checkbox" id="p234"><div class="problem-details"><label for="p234"><a href="https://leetcode.com/problems/palindrome-linked-list/" target="_blank">234. Palindrome Linked List</a></label></div></div>
+            <div class="problem optional"><input type="checkbox" id="p382"><div class="problem-details"><label for="p382"><a href="https://leetcode.com/problems/linked-list-random-node/" target="_blank">382. Linked List Random Node</a></label></div></div>
+          </div>
+        </section>
+
+        <section id="dll">
+            <h2>3. Doubly Linked List (DLL)</h2>
+            <p class="section-meta">Lists with `prev` pointers allow for efficient bidirectional traversal and manipulation.</p>
+            <ul class="syllabus-points">
+                <li><input type="checkbox" id="theory-dll-1"><label for="theory-dll-1">Traversal (forward & backward)</label></li>
+                <li><input type="checkbox" id="theory-dll-2"><label for="theory-dll-2">Insertion (head, tail, kth, before/after)</label></li>
+                <li><input type="checkbox" id="theory-dll-3"><label for="theory-dll-3">Deletion (head, tail, kth, by node)</label></li>
+                <li><input type="checkbox" id="theory-dll-4"><label for="theory-dll-4">Reverse DLL</label></li>
+                <li><input type="checkbox" id="theory-dll-5"><label for="theory-dll-5">Convert array ⇄ DLL</label></li>
+            </ul>
+            <div class="problems">
+                <div class="problem must"><input type="checkbox" id="p1472"><div class="problem-details"><label for="p1472"><a href="https://leetcode.com/problems/design-browser-history/" target="_blank">1472. Design Browser History</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p430"><div class="problem-details"><label for="p430"><a href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/" target="_blank">430. Flatten a Multilevel Doubly Linked List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p109"><div class="problem-details"><label for="p109"><a href="https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/" target="_blank">109. Convert Sorted List to BST</a></label></div></div>
+            </div>
+        </section>
+
+        <section id="circular">
+            <h2>4. Circular Linked List</h2>
+            <p class="section-meta">Special lists where the last node points back to the head, creating a continuous loop.</p>
+            <ul class="syllabus-points">
+                <li><input type="checkbox" id="theory-circular-1"><label for="theory-circular-1">Traversal</label></li>
+                <li><input type="checkbox" id="theory-circular-2"><label for="theory-circular-2">Insertion (head, tail)</label></li>
+                <li><input type="checkbox" id="theory-circular-3"><label for="theory-circular-3">Deletion (head, tail)</label></li>
+            </ul>
+            <div class="problems">
+                <div class="problem must"><input type="checkbox" id="p708"><div class="problem-details"><label for="p708"><a href="https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/" target="_blank">708. Insert into a Sorted Circular Linked List</a></label></div></div>
+            </div>
+        </section>
+
+        <section id="classic">
+            <h2>5. Classic Problems & Algorithms</h2>
+            <p class="section-meta">Important patterns and algorithms frequently asked in technical interviews.</p>
+            <ul class="syllabus-points">
+                <li><input type="checkbox" id="theory-classic-1"><label for="theory-classic-1">Two-pointer techniques (Nth from end, intersection)</label></li>
+                <li><input type="checkbox" id="theory-classic-2"><label for="theory-classic-2">Reversal in groups, rotation, reordering</label></li>
+                <li><input type="checkbox" id="theory-classic-3"><label for="theory-classic-3">Partitioning, odd-even arrangement</label></li>
+                <li><input type="checkbox" id="theory-classic-4"><label for="theory-classic-4">Merging and sorting lists</label></li>
+                <li><input type="checkbox" id="theory-classic-5"><label for="theory-classic-5">Deep copy with random pointers</label></li>
+            </ul>
+            <div class="problems">
+                <div class="problem must"><input type="checkbox" id="p2"><div class="problem-details"><label for="p2"><a href="https://leetcode.com/problems/add-two-numbers/" target="_blank">2. Add Two Numbers</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p445"><div class="problem-details"><label for="p445"><a href="https://leetcode.com/problems/add-two-numbers-ii/" target="_blank">445. Add Two Numbers II</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p369"><div class="problem-details"><label for="p369"><a href="https://leetcode.com/problems/plus-one-linked-list/" target="_blank">369. Plus One Linked List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p19"><div class="problem-details"><label for="p19"><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank">19. Remove Nth Node From End</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p24"><div class="problem-details"><label for="p24"><a href="https://leetcode.com/problems/swap-nodes-in-pairs/" target="_blank">24. Swap Nodes in Pairs</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p25"><div class="problem-details"><label for="p25"><a href="https://leetcode.com/problems/reverse-nodes-in-k-group/" target="_blank">25. Reverse Nodes in k-Group</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p61"><div class="problem-details"><label for="p61"><a href="https://leetcode.com/problems/rotate-list/" target="_blank">61. Rotate List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p143"><div class="problem-details"><label for="p143"><a href="https://leetcode.com/problems/reorder-list/" target="_blank">143. Reorder List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p328"><div class="problem-details"><label for="p328"><a href="https://leetcode.com/problems/odd-even-linked-list/" target="_blank">328. Odd Even Linked List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p86"><div class="problem-details"><label for="p86"><a href="https://leetcode.com/problems/partition-list/" target="_blank">86. Partition List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p21"><div class="problem-details"><label for="p21"><a href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank">21. Merge Two Sorted Lists</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p23"><div class="problem-details"><label for="p23"><a href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank">23. Merge k Sorted Lists</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p147"><div class="problem-details"><label for="p147"><a href="https://leetcode.com/problems/insertion-sort-list/" target="_blank">147. Insertion Sort List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p148"><div class="problem-details"><label for="p148"><a href="https://leetcode.com/problems/sort-list/" target="_blank">148. Sort List</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p160"><div class="problem-details"><label for="p160"><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/" target="_blank">160. Intersection of Two Linked Lists</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p138"><div class="problem-details"><label for="p138"><a href="https://leetcode.com/problems/copy-list-with-random-pointer/" target="_blank">138. Copy List with Random Pointer</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p133"><div class="problem-details"><label for="p133"><a href="https://leetcode.com/problems/clone-graph/" target="_blank">133. Clone Graph</a></label></div></div>
+            </div>
+        </section>
+
+        <section id="advanced">
+            <h2>6. Advanced Concepts</h2>
+            <p class="section-meta">High-level use of linked lists as underlying structures in complex data structures and design problems.</p>
+            <ul class="syllabus-points">
+                <li><input type="checkbox" id="theory-advanced-1"><label for="theory-advanced-1">Cycle detection algorithms (Floyd’s Tortoise and Hare)</label></li>
+                <li><input type="checkbox" id="theory-advanced-2"><label for="theory-advanced-2">LRU and LFU cache design</label></li>
+                <li><input type="checkbox" id="theory-advanced-3"><label for="theory-advanced-3">All O(1) Data Structure</label></li>
+                <li><input type="checkbox" id="theory-advanced-4"><label for="theory-advanced-4">Skip Lists (probabilistic data structure)</label></li>
+            </ul>
+            <div class="problems">
+                <div class="problem must"><input type="checkbox" id="p146"><div class="problem-details"><label for="p146"><a href="https://leetcode.com/problems/lru-cache/" target="_blank">146. LRU Cache</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p460"><div class="problem-details"><label for="p460"><a href="https://leetcode.com/problems/lfu-cache/" target="_blank">460. LFU Cache</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p432"><div class="problem-details"><label for="p432"><a href="https://leetcode.com/problems/all-oone-data-structure/" target="_blank">432. All Oone Data Structure</a></label></div></div>
+            </div>
+        </section>
+
+        <section id="applications">
+            <h2>7. Applications</h2>
+            <p class="section-meta">Real-world usage of linked lists to implement other fundamental data structures.</p>
+            <ul class="syllabus-points">
+                <li><input type="checkbox" id="theory-apps-1"><label for="theory-apps-1">Stack implementation using LL</label></li>
+                <li><input type="checkbox" id="theory-apps-2"><label for="theory-apps-2">Queue implementation using LL</label></li>
+                <li><input type="checkbox" id="theory-apps-3"><label for="theory-apps-3">Deque implementation using DLL</label></li>
+                <li><input type="checkbox" id="theory-apps-4"><label for="theory-apps-4">Circular Queue implementation using CLL</label></li>
+                <li><input type="checkbox" id="theory-apps-5"><label for="theory-apps-5">Polynomial representation & addition</label></li>
+            </ul>
+            <div class="problems">
+                <div class="problem must"><input type="checkbox" id="p641"><div class="problem-details"><label for="p641"><a href="https://leetcode.com/problems/design-circular-deque/" target="_blank">641. Design Circular Deque</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p622"><div class="problem-details"><label for="p622"><a href="https://leetcode.com/problems/design-circular-queue/" target="_blank">622. Design Circular Queue</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p232"><div class="problem-details"><label for="p232"><a href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank">232. Implement Queue using Stacks</a></label></div></div>
+                <div class="problem must"><input type="checkbox" id="p225"><div class="problem-details"><label for="p225"><a href="https://leetcode.com/problems/implement-stack-using-queues/" target="_blank">225. Implement Stack using Queues</a></label></div></div>
+            </div>
+        </section>
+
+        <section id="extras">
+            <h2>8. Extra Practice</h2>
+            <p class="section-meta">More problems for deep practice beyond the standard interview core topics.</p>
+            <div class="problems">
+                <div class="problem optional"><input type="checkbox" id="p1171"><div class="problem-details"><label for="p1171"><a href="https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/" target="_blank">1171. Remove Zero Sum Consecutive Nodes</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p2181"><div class="problem-details"><label for="p2181"><a href="https://leetcode.com/problems/merge-nodes-in-between-zeros/" target="_blank">2181. Merge Nodes in Between Zeros</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p1019"><div class="problem-details"><label for="p1019"><a href="https://leetcode.com/problems/next-greater-node-in-linked-list/" target="_blank">1019. Next Greater Node In Linked List</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p725"><div class="problem-details"><label for="p725"><a href="https://leetcode.com/problems/split-linked-list-in-parts/" target="_blank">725. Split Linked List in Parts</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p817"><div class="problem-details"><label for="p817"><a href="https://leetcode.com/problems/linked-list-components/" target="_blank">817. Linked List Components</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p2807"><div class="problem-details"><label for="p2807"><a href="https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/" target="_blank">2807. Insert GCD in Linked List</a></label></div></div>
+                <div class="problem optional"><input type="checkbox" id="p1485"><div class="problem-details"><label for="p1485"><a href="https://leetcode.com/problems/clone-binary-tree-with-random-pointer/" target="_blank">1485. Clone Binary Tree With Random Pointer</a></label></div></div>
+            </div>
+        </section>
+      </main>
+      
+      <aside>
+        <nav class="card">
+          <h3>Syllabus Topics</h3>
+          <ul>
+            <li><a href="#fundamentals">1. Fundamentals<small>Basics, types, comparison with arrays</small></a></li>
+            <li><a href="#sll">2. Singly Linked List<small>Core operations and problems</small></a></li>
+            <li><a href="#dll">3. Doubly Linked List<small>Bidirectional traversal and use-cases</small></a></li>
+            <li><a href="#circular">4. Circular Linked List<small>Lists that form a continuous loop</small></a></li>
+            <li><a href="#classic">5. Classic Problems<small>Common interview patterns</small></a></li>
+            <li><a href="#advanced">6. Advanced Concepts<small>Cache design and complex use-cases</small></a></li>
+            <li><a href="#applications">7. Applications<small>Implementing other data structures</small></a></li>
+            <li><a href="#extras">8. Extra Practice<small>More problems for deeper understanding</small></a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+    
+    <div class="legend">
+      <span class="must">Must-Do Problem</span>
+      <span class="optional">Optional Problem</span>
+    </div>
+
+    <div class="footer">
+      This syllabus blends <strong>theoretical concepts</strong> with <strong>practical LeetCode problems</strong>. <br/>
+      Designed to provide a structured path for learning Linked Lists effectively.
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
