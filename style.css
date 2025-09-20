@@ -198,6 +198,32 @@ section h2{
     align-items: center;
     width: 100%;
 }
+.problem-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.difficulty {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.difficulty-easy {
+    color: #16a34a;
+    background: rgba(74, 222, 128, 0.15);
+}
+.difficulty-medium {
+    color: #b45309;
+    background: rgba(245, 158, 11, 0.15);
+}
+.difficulty-hard {
+    color: #dc2626;
+    background: rgba(239, 68, 68, 0.15);
+}
 
 /* --- Checkbox & Completion Styles --- */
 input[type="checkbox"] {
@@ -264,10 +290,12 @@ label {
     margin:12px 0 24px;
     font-size:13px;
     color:var(--text-body);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .legend span{
     display:inline-block;
-    margin-right:14px;
     padding:4px 10px;
     border-radius:8px;
     font-weight:600;
@@ -282,6 +310,21 @@ label {
     color:#b45309;
     background:rgba(245,158,11,0.15);
     border-color: rgba(245,158,11,0.2);
+}
+.legend .legend-difficulty-easy {
+    color: #16a34a;
+    background: rgba(74, 222, 128, 0.15);
+    border-color: rgba(74, 222, 128, 0.3);
+}
+.legend .legend-difficulty-medium {
+    color: #b45309;
+    background: rgba(245, 158, 11, 0.15);
+    border-color: rgba(245, 158, 11, 0.2);
+}
+.legend .legend-difficulty-hard {
+    color: #dc2626;
+    background: rgba(239, 68, 68, 0.15);
+    border-color: rgba(239, 68, 68, 0.3);
 }
 
 .footer{
